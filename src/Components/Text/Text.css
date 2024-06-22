@@ -1,0 +1,30 @@
+.text{
+    margin: 1.5rem;
+    display: grid;
+}
+.left-text{
+    display: flex;
+    gap: 2rem;
+}
+.left-text-item p{
+ text-align: left;
+
+}
+.right-text{
+    display: flex;
+    gap: 2rem;
+}
+.right-text-item p{
+    text-align: left;
+   
+   }
+
+   /* Card */
+   .card{
+    width: 30rem;
+    height: 35rem;
+   }
+   .card-title{
+    color: blue;
+   }
+   

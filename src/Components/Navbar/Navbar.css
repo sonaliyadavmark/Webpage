@@ -1,0 +1,68 @@
+
+.nav{
+    height: 10vh;
+    
+    justify-content: space-between;
+    background-color: skyblue;
+    align-items: center;
+}
+
+.nav-ele {
+    flex: 10;
+}
+
+.nav-ele>ul {
+    color: white;
+    display: flex;
+    gap: 5rem;
+}
+
+.nav-ele>ul>li {
+    font-size: 1.2rem;
+}
+
+.nav-ele>ul>li:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.knee-icon {
+width: 100%;
+
+}
+
+/* part 2 Navs */
+
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+   align-items: center;
+    height: 8vh;
+    box-shadow: 2px gray;
+}
+
+.nav-ele1 {
+    flex: 10;
+}
+
+.nav-ele1>ul {
+    display: flex;
+    gap: 4rem;
+    
+    
+}
+
+.nav-ele1>ul>li {
+    font-size: 1rem;
+
+
+}
+
+.nav-ele1>ul>li:hover {
+    cursor: pointer;
+    color: orange;
+    text-decoration: underline;
+
+}
